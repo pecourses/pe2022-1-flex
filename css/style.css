@@ -2,31 +2,18 @@
   box-sizing: border-box;
 }
 
-.outerBlock {
-  border: 5px solid blue;
-  padding: 10px;
-  max-width: 800px;
-  width: 100%;
-  min-width: 320px;
-  margin: 0 auto;
-}
-
-.innerBlock {
-  border: 5px solid red;
-  padding: 5px;
-  width: 20%;
-}
-
-.flexParent {
+header {
+  background-image: url('http://traversymedia.com/downloads/assets/beachshowcase.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.flexChild1 {
-}
-.flexChild2 {
-}
-.flexChild3 {
-}
-.flexChild4 {
+body {
+  text-align: center;
 }
