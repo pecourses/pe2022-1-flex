@@ -2,34 +2,36 @@
   box-sizing: border-box;
 }
 
-.usersList {
-  padding: 10px;
-}
-
-img {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid green;
-}
-
-.usersListItem {
+body {
   display: flex;
-  align-items: center;
-  padding: 10px;
-  border: 1px solid grey;
-  box-shadow: 0 0 5px grey;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.usersListItem + .usersListItem {
-  margin-top: 10px;
-}
-
-svg {
-  margin-left: auto;
+header {
+  border: 3px solid red;
 }
 
 div {
-  margin: 0 10px;
+  border: 3px solid yellow;
+  align-self: center;
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+  min-width: 320px;
+}
+
+nav {
+  border: 3px solid green;
+  width: 25%;
+}
+
+main {
+  border: 3px solid blue;
+  width: 75%;
+}
+
+footer {
+  border: 3px solid red;
+  margin-top: auto;
 }
